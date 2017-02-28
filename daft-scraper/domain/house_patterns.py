@@ -1,0 +1,12 @@
+class HousePatterns:
+    latitude = "\"latitude\":\"(\d+.\d+)\""
+    longitude = "\"longitude\":\"([-]\d+.\d+)\""
+    floor_area = "<strong>Overall Floor Area:</strong>\s+(\d+.?\d+)\sSq.\sMetres"
+    price = "(\d+,(\d+,?)*)"
+    beds = "(\d+) Beds?"
+    baths = "(\d+) Baths?"
+    house = "(Duplex|Apartment|Semi-Detached|Terraced|Bungalow|Detached|Townhouse|End of Terrace House|Acre Site|House)"
+    energy = "Energy Performance Indicator:\s+(d+.\d+)\s+kWh/m2/yr"
+    energy_rating = "ber_(\w+).png"
+    ber_number = "BER No (\d+)"
+    description = "Property Description:(.+)Features"
